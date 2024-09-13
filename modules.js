@@ -60,7 +60,7 @@ const addContact = (name, tel, email, fav) => {
   const contact = {
     id: randomUUID(),
     nombre: name,
-    telefono: tel,
+    telefono: Number(tel),
     email: email,
     favorito: favorito,
   };
